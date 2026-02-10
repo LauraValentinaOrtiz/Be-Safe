@@ -1,1 +1,35 @@
-Nombres y enlaces de los artículos científicos del MIT y Stanford.
+BIBLIOGRAFÍA CIENTÍFICA Y REFERENCIAS TÉCNICAS - PROYECTO BE SAFE
+
+1. MONITOREO DE SIGNOS VITALES SIN CONTACTO (VISIÓN ARTIFICIAL)
+
+Título: "Non-contact, automated cardiac pulse measurements using video imaging and blind source separation"
+Autores: Ming-Zher Poh, Daniel J. McDuff, Rosalind W. Picard.
+Institución: MIT Media Lab.
+Resumen: 
+Este es el paper base para el módulo "Sentinel Health". Demuestra cómo una webcam 
+puede extraer la señal del pulso cardíaco analizando los cambios imperceptibles 
+de color en la piel (rPPG).
+Enlace referencia: https://opticsprod.library.caltech.edu/
+
+2. INTELIGENCIA ARTIFICIAL COGNITIVA Y MEMORIA (MÓDULO LEGACY)
+
+Título: "Generative Agents: Interactive Simulacra of Human Behavior"
+Autores: Joon Sung Park, et al.
+Institución: Stanford University & Google Research.
+Resumen:
+Fundamento para la creación de "Gemelos Digitales". Describe una arquitectura 
+donde los agentes de IA tienen memoria, reflexión y planificación, permitiendo 
+preservar la "esencia" y ética de una persona.
+Enlace: https://arxiv.org/abs/2304.03442
+
+3. SEGURIDAD NEONATAL Y PREVENCIÓN DE SIDS
+
+Tema: Deep Learning approaches for SIDS (Sudden Infant Death Syndrome) detection.
+Tecnología: Redes Neuronales Convolucionales (CNN) y Estimación de Pose (MediaPipe).
+Objetivo:
+Detectar la posición del bebé y la frecuencia respiratoria para alertar sobre 
+apnea o posturas peligrosas en tiempo real.
+
+NOTAS DE ARQUITECTURA:
+- Lenguaje: Python 3.9+
+- Librerías clave: OpenCV, PyTorch, MediaPipe.
